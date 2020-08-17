@@ -1,0 +1,14 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Website for Ace in The Hole",
+  "main": "scripts.js",
+  "scripts": {
+  "compile:sass": "node-sass sass/main.scss css/style.css" 
+  },
+  "author": "Grant",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
