@@ -1,0 +1,23 @@
+footer {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: $color-black;
+    height: 10rem;
+    @include respond(tab-port) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+  
+      @include respond(tab-land) {
+        grid-template-columns: repeat(8, 1fr);
+    }
+  
+      @include respond(desktop) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    & ul {
+      list-style-type: none; list-style-image: none; text-decoration: none;
+    }
+  }
+   
+    
