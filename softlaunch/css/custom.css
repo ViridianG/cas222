@@ -1,0 +1,167 @@
+/* Footer */
+.footer {
+    background-color: #000;
+    padding: 15px;
+}
+.footer .nav-link {
+    color: #ddd;
+    font-size: 15px;
+}
+
+/* Contact Form */
+.custom-form .legend {
+    font-size: 25px;
+    color: #777;
+}
+
+.custom-form p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+
+.custom-form .control-label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #777;
+}
+
+.custom-form .custom-control-label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-left: 15px;
+}
+
+.custom-form .form-control {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    height: inherit;
+}
+
+.custom-control-label::after {
+    top: 5px;
+    width: 20px!important;
+    height: 20px!important;
+    left: -30px!important;
+}
+
+.custom-control-label::before {
+    top: 5px;
+    width: 20px!important;
+    height: 20px!important;
+    left: -30px!important;
+}
+
+.custom-radio {
+    margin-bottom: 10px;
+}
+
+.custom-form button {
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    background-color: red;
+    border: 1px solid red;
+}
+
+/* FAQ */
+.faq {
+    margin-bottom: 50px;
+}
+
+.faq .card-header h2 button {
+    font-size: 18px;
+    position: relative;
+    width: 100%;
+    color: #777;
+    font-weight: 700;
+    padding-right: 25px;
+}
+
+.faq .card-header h2 button span {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.faq .card-header h2 button:hover, .faq .card-header h2 button:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.faq .card-body {
+    font-size: 16px;
+}
+
+.faq-list {
+    margin-top: 15px;
+}
+
+.faq-list li {
+    position: relative;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.faq-list li span {
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    font-size: 0px;
+}
+
+/* Landing Page */
+.default-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+@media (max-width: 767px) {
+    .default-title {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .sub-title {
+        font-size: 18px;
+    }
+}

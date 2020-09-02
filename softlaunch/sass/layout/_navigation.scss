@@ -1,0 +1,78 @@
+
+  
+  
+ .hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    padding:.5rem 1.5rem 0rem 1.5rem;
+    border:0;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+
+    @include respond(tab-land) {
+      display: none;
+  }
+
+  }
+  .cross{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    padding:.7rem 1.4rem .7rem 1.4rem;
+    border:0;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+  .menu{z-index:1000000; width:100%; background:$color-white;  position:absolute; margin-top: 1.5rem;
+    & ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    & li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    & li:hover{display: block; background:$color-grey-dark-2; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    & ul li a { text-decoration:none;  margin: 0px;}
+    & ul li a:hover {text-decoration:none;}
+    & a{text-decoration:none;}
+    & a:hover{text-decoration:none;}
+  }
+  
+  .navigation-menu-desktop  {
+    display: grid;
+    justify-items: end;
+    font-size: 1.8rem;
+    
+    & a {
+      text-decoration: none;
+  }
+    
+    & ul {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      text-decoration: none; 
+      font-weight: 700;
+    }
+    & ul li {
+      display: grid;
+      justify-content: space-around;
+      color:white;
+      
+      
+    }
+
+   
+    @include respond(mobile) {
+      display: none;
+}
+
+    @include respond(tab-port) {
+      display: none;
+}
+
+    @include respond(tab-land) {
+      display:grid;
+}
+  }
+ 
+  
